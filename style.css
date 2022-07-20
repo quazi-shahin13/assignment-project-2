@@ -120,11 +120,15 @@ p{
     font-size: 20px;
     font-weight: 400;
     margin-top: 30px;
-    text-decoration: none;
-    color: black;
+
     
     
 }
+.button-2 a{
+    text-decoration: none;
+    color: black;
+}
+
 .button-3{
     width: 250px;
     height: 56px;

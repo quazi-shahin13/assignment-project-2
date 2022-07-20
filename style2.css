@@ -131,12 +131,17 @@ p{
     font-size: 20px;
     font-weight: 400;
     margin-top: 30px;
-    text-decoration: none;
-    color: black;
+    
     
     
     
 }
+
+.button-4 a{
+    text-decoration: none;
+    color: black;
+}
+
 /* --------------
 Final section
 --------------  */
