@@ -29,6 +29,7 @@ top section design
     margin-top: 100px;
 }
 
+
 .head-1{
     
     width: 531px;
@@ -39,6 +40,7 @@ top section design
     font-size: 70px;
     line-height: 80px;
 }
+
 p{
     margin-top: -30px;
     font-weight: 400;
@@ -46,6 +48,8 @@ p{
     line-height: 26px;
     color: #FFFFFF;
 }
+
+
 .button-1{
     
    
@@ -160,20 +164,18 @@ p{
 -------------------- */
 
 /*----------------
-3rd section start
+3rd Div Area start
  ---------------  */
 
-.section-3{
-   position: absolute;
-    margin-left: 440px;
-    margin-top: 826px;
-    
-}
+
 
 .blogs{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
+    position: absolute;
+    margin-left: 440px;
+    margin-top: 826px;
 }
 
 /* blog style  */
@@ -217,7 +219,7 @@ p{
 }
 
 /* ----------------
-3rd section end
+3rd Div Area end
 ----------------- */
 
 /* --------------
@@ -270,5 +272,19 @@ footer div{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+/* -----------
+Media query
+-----------  */
 
+@media screen and (max-width:768px){
+    .section-head{
+
+        
+        height: 398px;
+        width: 734px;
+       
+        
+    }
+    
+}
 

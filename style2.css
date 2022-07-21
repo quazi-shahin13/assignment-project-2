@@ -142,6 +142,71 @@ p{
     color: black;
 }
 
+/* ------------
+2nd section end
+--------------- */
+
+/*----------------
+3rd section start
+ ---------------  */
+
+ .section-3{
+    position: absolute;
+     margin-left: 440px;
+     margin-top: 826px;
+     
+ }
+ 
+ .blogs{
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     gap: 10px;
+ }
+ 
+ /* blog style  */
+ .blog{
+     width: 312px;
+     height: 362px;
+     border: 1px solid rgb(240, 233, 233);
+     border-radius: 10px 10px 0 0;
+     
+ }
+ 
+ .blog .thumbnail img{
+     width: 312px;
+     height: 175px;
+     border-radius: 10px 10px 0px 0px;
+ }
+ .button-5{
+     width: 100px;
+     height: 32px;
+     border-radius: 10px;
+     border: 0;
+     background-color: rgb(240, 221, 196);
+     margin: 10px;
+ }
+ 
+ .title-1{
+     margin-left: 10px;
+ }
+ 
+ .icon{
+     margin-left: 10px;
+     display: flex;
+ }
+ 
+ .para{
+     margin-left: 40px;
+     color: #a49e9e;
+ }
+ .icon-img{
+     margin-left: 10px;
+ }
+ 
+ /* ----------------
+ 3rd section end
+ ----------------- */
+
 /* --------------
 Final section
 --------------  */
