@@ -318,3 +318,30 @@ Media query
     
 }
 
+@media screen and (max-width:576px){
+    .section-head{
+        height: 398px;
+        width: 734px;
+       
+        
+    }
+    .div-head{
+        width: 276px;
+        height: 316px;
+    }
+
+    .blogs{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .section-2{
+        display: flex;
+        flex-direction: row;
+        background-color: #FFFFFF;
+        margin-top: 518px;
+    }
+
+
+    
+}
+
