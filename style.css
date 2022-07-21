@@ -272,19 +272,49 @@ footer div{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.foot-div{
+    display: flex;
+    margin-top: 70px;
+    margin-left: 400px;
+    
+    
+}
+
+.foot-ank{
+    text-decoration: none;
+    color: #FFFFFF;
+    padding: 5px;
+    
+}
+
 /* -----------
 Media query
 -----------  */
 
 @media screen and (max-width:768px){
     .section-head{
-
-        
         height: 398px;
         width: 734px;
        
         
     }
+    .div-head{
+        width: 276px;
+        height: 316px;
+    }
+
+    .blogs{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .section-2{
+        display: flex;
+        flex-direction: row;
+        background-color: #FFFFFF;
+        margin-top: 518px;
+    }
+
+
     
 }
 

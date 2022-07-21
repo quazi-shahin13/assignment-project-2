@@ -1,3 +1,8 @@
+body{
+    margin: 0;
+}
+
+
 /* top section design  */
 
 .section-head{
@@ -255,6 +260,20 @@ footer div{
     font-weight: 500;
     font-style: italic;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.foot-div{
+    display: flex;
+    margin-top: 70px;
+    margin-left: 400px;
+    
+    
+}
+
+.foot-ank{
+    text-decoration: none;
+    color: #FFFFFF;
+    padding: 5px;
 }
 
 
